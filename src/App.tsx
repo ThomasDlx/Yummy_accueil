@@ -35,7 +35,7 @@ function App() {
           </div>
         <h2 style={{ color: '#609b85', fontFamily: 'Bright', marginBottom: '-10px' }} className="text-4xl font-bold text-center mb-12">MENUS</h2>
           {/* Brunch Card */}
-          <a href='https://www.yummyvalenciennes.fr' target='_blank'>
+          <a href='https://carte.yummyvalenciennes.fr' target='_blank'>
             <div className="relative group overflow-hidden rounded-lg">
               <img 
                 src="src/img/mali.jpg"
@@ -50,17 +50,19 @@ function App() {
           </a>
 
           {/* Sweet Card */}
-          <div className="relative group overflow-hidden rounded-lg">
-            <img 
-              src="src/img/mj.jpeg"
-              alt="Sweet" 
-              className="w-full h-[400px] object-cover transition-transform duration-300 group-hover:scale-105"
-            />
-            <div className="absolute inset-0 bg-black/30 flex flex-col justify-end p-6">
-            <h3 style={{fontFamily:'American', fontSize:'2.5rem'}} className="text-white text-2xl">Brunch du Dimanche</h3>
-              {/* <p className="text-white">Mardi au vendredi • 15h00-18h00</p> */}
+          <a href='https://dimanche.yummyvalenciennes.fr' target='_blank'>
+            <div className="relative group overflow-hidden rounded-lg">
+              <img 
+                src="src/img/mj.jpeg"
+                alt="Sweet" 
+                className="w-full h-[400px] object-cover transition-transform duration-300 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-black/30 flex flex-col justify-end p-6">
+              <h3 style={{fontFamily:'American', fontSize:'2.5rem'}} className="text-white text-2xl">Brunch du Dimanche</h3>
+                {/* <p className="text-white">Mardi au vendredi • 15h00-18h00</p> */}
+              </div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
       <h2 style={{ color: '#609b85', fontFamily: 'Bright', marginBottom: '-30px', marginTop: '-35px'  }} className="text-4xl font-bold text-center mb-12">RÉSEAUX</h2>
