@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Milestone';
+    src: url('./fonts/MilestoneFreeVersion-Script.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'American';
+    src: url('./fonts/American.otf') format('opentype');
+    letter-spacing: 0.05em;
+}
+
+@font-face {
+    font-family: 'Bright';
+    src: url('./fonts/Bright.ttf') format('truetype');
+    font-weight: bold;
+}
