@@ -2,7 +2,14 @@ import React from 'react';
 import { Instagram, MapPin, Star } from 'lucide-react';
 import './index.css';
 import { Phone } from 'lucide-react';
-
+import tonyM  from './img/tonyM.jpg';
+import facade from './img/facade.jpeg';
+import mali from './img/mali.jpg';
+import mj from './img/mj.jpeg';
+import obama from './img/obama.jpeg';
+import cravate from './img/cravate.jpeg';
+import instagram from './img/instagram.png';
+import snap from './img/snap.png';
 
 function App() {
   return (
@@ -10,7 +17,7 @@ function App() {
       {/* Hero Section */}
       <div className="relative h-screen">
         <img 
-          src="src/img/facade.jpeg"
+          src={facade}
           alt="Café ambiance" 
           className="w-full h-full object-cover"
         />
@@ -28,7 +35,7 @@ function App() {
           {/* tony */}
           <div className="relative group overflow-hidden rounded-lg">
             <img 
-              src="src/img/tonyM.jpg"
+              src={tonyM}
               alt="Brunch" 
               className="w-full h-[400px] object-cover transition-transform duration-300 group-hover:scale-105"
             />
@@ -38,7 +45,7 @@ function App() {
           <a href='https://carte.yummyvalenciennes.fr' target='_blank'>
             <div className="relative group overflow-hidden rounded-lg">
               <img 
-                src="src/img/mali.jpg"
+                src={mali}
                 alt="Brunch" 
                 className="w-full h-[400px] object-cover transition-transform duration-300 group-hover:scale-105"
               />
@@ -53,7 +60,7 @@ function App() {
           <a href='https://dimanche.yummyvalenciennes.fr' target='_blank'>
             <div className="relative group overflow-hidden rounded-lg">
               <img 
-                src="src/img/mj.jpeg"
+                src={mj}
                 alt="Sweet" 
                 className="w-full h-[400px] object-cover transition-transform duration-300 group-hover:scale-105"
               />
@@ -80,7 +87,7 @@ function App() {
             </a> */}
             <a href="https://www.google.com/search?sca_esv=8453c91464d7cb43&sxsrf=ADLYWIJwWfFyb7wi7yO4b8eWhGZY6kwAdQ:1734886151702&q=yummy+valenciennes&si=ACC90nwjPmqJHrCEt6ewASzksVFQDX8zco_7MgBaIawvaF4-7lk0b3altx6KAWJLlrqYY78okZElN9Zspgjt4p0W43TptMgwWf7o2G972tFVKi8FqP_91ug%3D&uds=ADvngMhGB-VtBMom1-3tEuR0_dZA_K9N_wut5bdI2qF1WDjb80_xF6TeQQK953VaRabGWP_Oz6WuyrK99fzswdTd2zk4YzwcPGTV0QjfUs4Tx4j24qG12Ng&sa=X&ved=2ahUKEwis27DG6ruKAxUWcaQEHfCGHx4Q3PALegQIIxAE&biw=1920&bih=959&dpr=1" target="_blank" rel="noopener noreferrer" 
                className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-              <img src="src/img/obama.jpeg" alt="Avis Google" className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" />
+              <img src={obama} alt="Avis Google" className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" />
               <div className="absolute inset-0 bg-black/30 flex flex-col justify-end p-6">
               <Star className="w-12 h-12 text-yellow-400 mb-4" />
               <h3 className="text-xl font-bold mb-2 text-white">Avis Google</h3>
@@ -89,7 +96,7 @@ function App() {
             </a>
             <a href="https://www.instagram.com/yummy_valenciennes/" target="_blank" rel="noopener noreferrer"
                className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-              <img src="src/img/cravate.jpeg" alt="Avis Google" className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" />
+              <img src={cravate} alt="Avis Google" className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" />
               <div className="absolute inset-0 bg-black/30 flex flex-col justify-end p-6">
               <Instagram className="w-12 h-12 text-pink-400 mb-4" />
               <h3 className="text-xl font-bold mb-2 text-white">Instagram</h3>
@@ -132,10 +139,10 @@ function App() {
         </div>
         <div className="flex space-x-6">
           <a href="https://www.instagram.com/yummy_valenciennes/" target="_blank" rel="noopener noreferrer">
-            <img src="src/img/instagram.png" alt="Snapchat" style={{ width: '100px' }} />
+            <img src={instagram} alt="Snapchat" style={{ width: '100px' }} />
           </a>
           <a href="https://www.snapchat.com/add/yummy_59300" target="_blank" rel="noopener noreferrer">
-            <img src="src/img/snap.png" alt="Snapchat" style={{ width: '100px' }} />
+            <img src={snap} alt="Snapchat" style={{ width: '100px' }} />
           </a>
         </div>
           </div>
